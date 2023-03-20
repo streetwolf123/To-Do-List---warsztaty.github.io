@@ -1,0 +1,35 @@
+.flex-items__list {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-flex {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.list__tasks-flex {
+    
+    display: flex;
+    flex-direction: row;
+    min-width: 90%;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 2px solid rgba(78, 76, 76, 0.213);
+}
+
+.li__buttonRemove {
+    justify-self: flex-end;
+}
+
+.paragraph-flex {
+    flex-grow: 1;
+    padding-left: 3%;
+}
+
+.li__paragraph-done {
+    text-decoration: line-through;
+}

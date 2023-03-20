@@ -1,0 +1,29 @@
+.form__button-send {
+    background-color:rgb(13, 96, 129);
+    color: white;
+    border: none;
+    transition: 550ms;
+    height: 50%;
+    max-width: 80%;
+}
+
+.form__button-send:hover {
+    background-color:  rgb(9, 134, 165);
+    transform: scale(1.15);
+}
+
+.li__button {
+    margin: 1%;
+    min-width: 30px;   
+    min-height: 30px;
+}
+
+.li__buttonDone {
+    border: 0px;
+    background-color: green;
+}
+
+.li__buttonRemove {
+    border: 0px;
+    background-color: red;
+}

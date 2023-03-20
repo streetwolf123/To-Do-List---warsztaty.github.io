@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <meta property="og:image" content="img/web.png">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1950/1950715.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/flex-body.css">
+    <link rel="stylesheet" href="css/flex-form.css">
+    <link rel="stylesheet" href="css/flex-list.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8a7706cbab.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="header-h1">Lista do zrobienia</h1>
+    </header>
+
+
+    <section class="body__sections flex-items__form">
+
+        <h2 class="header-h2">Dodaj nowe zadanie</h2>
+
+        <form class="form">
+
+                <input type="text" class="form__input form__input-js form__input-flex" required
+                    placeholder="Wpisz nowe zadanie" maxlength="18" value="" onfocus="this.value=''">
+
+                <button class="form__button-send form__button-flex">Dodaj zadanie</button>
+
+        </form>
+
+    </section>
+
+
+    <section class="body__sections flex-items__list">
+
+        <h2 class="header-h2">Lista Zadań</h2>
+
+        <div class="list__div">
+            <ul class="list-js list-flex"></ul>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

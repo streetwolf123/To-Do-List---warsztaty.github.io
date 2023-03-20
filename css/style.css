@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 80%;
+    margin: 10%; 
+    background-color:rgba(78, 76, 76, 0.213);  
+}
+
+.body__sections {
+    background-color: white;
+    margin-bottom: 6px;
+    min-height: 50px;
+}
+

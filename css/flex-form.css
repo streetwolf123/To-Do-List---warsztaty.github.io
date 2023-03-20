@@ -1,0 +1,35 @@
+.flex-items__form {
+   
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    /* margin-top: 2%;
+    margin-bottom: 2%; */
+    min-height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.form__input-flex {
+    border-color: rgba(78, 76, 76, 0.213);
+    padding: 1%;
+    min-width: 70%;
+    margin: 3%;
+   
+}
+
+.form__button-flex {
+    min-width: 15%;
+    max-width: 30%;
+    padding: 1% ;
+    flex-shrink: 0;
+    flex-grow: 1;
+    margin: 2%;
+}
