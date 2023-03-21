@@ -3,13 +3,11 @@
     color: white;
     border: none;
     transition: 550ms;
-    height: 50%;
-    max-width: 80%;
 }
 
 .form__button-send:hover {
     background-color:  rgb(9, 134, 165);
-    transform: scale(1.15);
+    transform: scale(1.10);
 }
 
 .li__button {

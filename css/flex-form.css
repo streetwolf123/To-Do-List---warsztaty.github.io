@@ -6,8 +6,7 @@
 }
 
 .form {
-    /* margin-top: 2%;
-    margin-bottom: 2%; */
+    
     min-height: 60%;
     display: flex;
     flex-direction: row;
@@ -21,15 +20,17 @@
     border-color: rgba(78, 76, 76, 0.213);
     padding: 1%;
     min-width: 70%;
-    margin: 3%;
-   
+    margin: 2%;
+   flex-grow: 1;
+   flex-shrink: 0;
 }
 
 .form__button-flex {
     min-width: 15%;
-    max-width: 30%;
-    padding: 1% ;
+    max-width: 100px; 
+    min-height: 38px;
     flex-shrink: 0;
-    flex-grow: 1;
-    margin: 2%;
+    padding-left: 5px;
+    margin-right: 2%;
+    
 }
