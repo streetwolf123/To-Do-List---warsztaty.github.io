@@ -14,7 +14,7 @@ the app was made using flex which helped keep it flexible. In addition, a transf
 
 ## Picture of website
 
-![pictures]([https://github.com/streetwolf123/To-Do-List.github.io/blob/main/img/web.png?raw=true](https://github.com/streetwolf123/To-Do-List---warsztaty.github.io/blob/master/img/Zrzut%20ekranu%202023-03-21%20o%2008.54.19.png?raw=true))
+![]([https://github.com/streetwolf123/To-Do-List.github.io/blob/main/img/web.png?raw=true](https://github.com/streetwolf123/To-Do-List---warsztaty.github.io/blob/master/img/Zrzut%20ekranu%202023-03-21%20o%2008.54.19.png?raw=true))
 
 
 
