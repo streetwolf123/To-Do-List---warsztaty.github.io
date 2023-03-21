@@ -10,7 +10,7 @@ the app was made using flex which helped keep it flexible. In addition, a transf
 
 ## Link 
 
-*[To Do List](https://streetwolf123.github.io/To-Do-List.github.io/)
+*[To Do List]( https://streetwolf123.github.io/To-Do-List---warsztaty.github.io/)
 
 ## Picture of website
 
