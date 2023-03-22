@@ -48,10 +48,7 @@
 
     }
 
-   
-  
-
-    const render = () => {
+    const renderTasks = () => {
         let taskObject = "";
 
         for (const task of tasks) {
@@ -78,6 +75,17 @@
         bindEvents();
 
        
+    };
+
+    const renderButtons = () => {
+
+    };
+
+   
+  
+
+    const render = () => {
+       renderTasks();
 
     }
 
