@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
     <meta property="og:image" content="img/web.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1950/1950715.png">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/script.js"></script>
@@ -22,21 +27,21 @@
 
 <body>
 
-    <header>
-        <h1 class="header-h1">Lista do zrobienia</h1>
+    <header class="body__header">
+        <h1>Lista Zadań</h1>
     </header>
 
 
     <section class="body__sections flex-items__form">
 
-        <h2 class="header-h2">Dodaj nowe zadanie</h2>
+        <h3 class="section__header">Dodaj nowe zadanie</h3>
 
         <form class="form">
 
-                <input type="text" class="form__input form__input-js form__input-flex" required
-                    placeholder="Wpisz nowe zadanie" maxlength="18" value="">
+            <input type="text" class="form__input form__input-js form__input-flex" required
+                placeholder="Co jest do zrobienia?" maxlength="18" value="">
 
-                <button class="form__button-send form__button-flex">Dodaj zadanie</button>
+            <button class="form__button-send form__button-flex">Dodaj zadanie</button>
 
         </form>
 
@@ -45,7 +50,7 @@
 
     <section class="body__sections flex-items__list">
 
-        <h2 class="header-h2">Lista Zadań</h2>
+        <h3 class="section__header">Lista Zadań</h3>
 
         <div class="list__div">
             <ul class="list-js list-flex"></ul>

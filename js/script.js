@@ -48,6 +48,8 @@
 
     }
 
+   
+  
 
     const render = () => {
         let taskObject = "";
@@ -63,7 +65,7 @@
                 <p class="task-js paragraph-js paragraph-flex ${task.done ? "li__paragraph-done" : ""}"> ${task.content}</p>
                           
                 <button class="task-js js-remove li__buttonRemove li__button">
-                    <i class="fa-sharp fa-solid fa-xmark"></i>
+                🗑️
                 </button>
                
                
