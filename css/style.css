@@ -9,15 +9,15 @@ html {
 }
 
 body {
-    max-width: 60%;
-    background-color:rgba(78, 76, 76, 0.213);  
-    margin: 20%;
-    margin-top: 0%;
+    max-width: 1000px;
+    background-color:rgba(78, 76, 76, 0.213); 
+    padding: 20px; 
+    margin: 0% 20% 0% 20%;
 }
 
 .body__sections {
     background-color: white;
-    margin-bottom: 6px;
     min-height: 50px;
+    border-bottom: 20px solid rgba(78, 76, 76, 0.213);
 }
 

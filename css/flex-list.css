@@ -1,14 +1,15 @@
 .flex-items__list {
-    align-self: stretch;
     display: flex;
     flex-direction: column;
+    
 }
 
 .list-flex {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    padding: 0%;
+    padding: 20px;
+    margin: 0%;
 }
 
 .list__tasks-flex {
@@ -23,12 +24,15 @@
 
 .li__buttonRemove {
     justify-self: flex-end;
+    
 }
+
+
 
 .paragraph-flex {
-    flex-grow: 1;
-
+   flex-grow: 1;
 }
+
 
 .li__paragraph-done {
     text-decoration: line-through;

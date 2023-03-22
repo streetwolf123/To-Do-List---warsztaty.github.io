@@ -58,9 +58,9 @@
                 <button class="js-done li__buttonDone li__buttons">
                     <i class="${task.done ? "fa-solid fa-check button__i" : ""}"></i>
                 </button>
-                              
-                <p class="task-js paragraph-js paragraph-flex ${task.done ? "li__paragraph-done" : ""}"> ${task.content}</p>
-                          
+                       
+                    <p class="task-js paragraph-js paragraph-flex ${task.done ? "li__paragraph-done" : ""}"> ${task.content}</p>
+                   
                 <button class="task-js js-remove li__buttonRemove li__buttons">
                 🗑️
                 </button>
@@ -93,6 +93,8 @@
 
 
     const onFormSubmit = () => {
+
+        
 
         const newTask = document.querySelector(".form__input-js");
         
