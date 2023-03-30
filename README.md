@@ -8,6 +8,10 @@ To-Do-list It is an application that helps you organize your day or organize you
 
 the app was made using flex which helped keep it flexible. In addition, a transform was used that gave the page a lively effect
 
+##JavaScript 
+
+the application was made using imiutability, functions refreshing the view were also created and inserted into the render function, thanks to which it is re-rendered with each change on the page
+
 ## Link 
 
 *[To Do List]( https://streetwolf123.github.io/To-Do-List---warsztaty.github.io/)
