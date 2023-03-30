@@ -11,13 +11,19 @@ html {
 body {
     max-width: 1000px;
     background-color:rgba(78, 76, 76, 0.213); 
-    padding: 20px; 
-    margin: 0% 20% 0% 20%;
+    
+    margin: 0% 10% 0% 10%;
 }
 
 .body__sections {
     background-color: white;
     min-height: 50px;
-    border-bottom: 20px solid rgba(78, 76, 76, 0.213);
+    border-bottom: 10px solid rgba(78, 76, 76, 0.213);
+}
+
+.body__header {
+    font-family: 'lato', sans-serif;
+    padding: 20px 20px 20px 0px;
+    margin: 0%;
 }
 

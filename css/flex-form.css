@@ -23,15 +23,14 @@
     max-height: 40px;
     margin: 2%;
     flex-grow: 1;
-    flex-shrink: 0;
+    
 }
 
 .form__button-flex {
     min-width: 15%;
     max-width: 87%;
     min-height: 34px;
-    flex-grow: 2;
-    flex-shrink: 0;
+    flex-grow: 2;  
     margin-right: 2%;
 
 }

@@ -15,11 +15,11 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1950/1950715.png">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/script.js"></script>
-    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/head.css">
-    <link rel="stylesheet" href="css/flex-body.css">
     <link rel="stylesheet" href="css/flex-form.css">
-    <link rel="stylesheet" href="css/flex-list.css">
+    <link rel="stylesheet" href="css/list.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/8a7706cbab.js" crossorigin="anonymous"></script>
 
@@ -28,18 +28,17 @@
 <body>
 
     <header class="body__header">
-        <h1>Lista Zadań</h1>
+        <h1 class="header">Lista Zadań</h1>
     </header>
 
 
     <section class="body__sections flex-items__form">
 
-        <h2 class="section__header">Dodaj nowe zadanie</h2>
+        <h3 class="section__header header">Dodaj nowe zadanie</h3>
 
         <form class="form">
 
-            <input type="text" class="form__input form__input-js form__input-flex" 
-                placeholder="Co jest do zrobienia?" value="">
+            <input type="text" class="form__input form__input-js form__input-flex" placeholder="Co jest do zrobienia?">
 
             <button class="form__button-send form__button-flex">Dodaj zadanie</button>
 
@@ -50,11 +49,19 @@
 
     <section class="body__sections flex-items__list">
 
-        <h2 class="section__header">Lista Zadań</h2>
+        <nav class="section__nav section__nav-flex">
 
-        <div class="list__div">
-            <ul class="list-js list-flex"></ul>
-        </div>
+            <h3 class="nav__header header">Lista Zadań</h3>
+
+            <div class="nav__buttons-js nav__buttons-flex">
+                
+            </div>
+
+        </nav>
+
+            <ul class="list-js list-flex">
+
+            </ul>
 
     </section>
 

@@ -1,0 +1,39 @@
+.section__nav-flex {
+    font-family: 'lato', sans-serif;
+    border-bottom: 2px solid;
+    border-color: rgba(78, 76, 76, 0.305);
+    padding: 10px;
+    margin: 0%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.nav__buttons {
+    justify-self: flex-end;
+    margin: 0%;
+    padding: 10px;
+}
+
+.nav__header {
+    flex-grow: 1;
+    margin: 0%;
+    padding: 10px;
+}
+
+
+.nav__buttons-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+@media(max-width: 767px) {
+    .nav__buttons {
+        flex-basis: 100%;
+    }
+}
+
