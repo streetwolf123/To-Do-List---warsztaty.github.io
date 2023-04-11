@@ -6,7 +6,7 @@ To-Do-list It is an application that helps you organize your day or organize you
 
 ## CSS
 
-the app was made using flex which helped keep it flexible. In addition, a transform was used that gave the page a lively effect
+the app was made using flex and grid which helped keep it flexible. In addition, a transform was used that gave the page a lively effect
 
 ##JavaScript 
 
