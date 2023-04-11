@@ -1,0 +1,14 @@
+.sections__header {
+    font-family: 'lato', sans-serif;
+    border-bottom: 1px solid rgba(78, 76, 76, 0.305);
+    height: 50px;
+    margin: 0%;
+}
+
+.sections__title {
+    padding: 10px;
+    margin: 0%;
+}
+
+
+

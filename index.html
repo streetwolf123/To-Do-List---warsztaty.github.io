@@ -15,10 +15,9 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1950/1950715.png">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/script.js"></script>
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/buttons.css">
-    <link rel="stylesheet" href="css/head.css">
-    <link rel="stylesheet" href="css/flex-form.css">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/list.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/8a7706cbab.js" crossorigin="anonymous"></script>
@@ -26,45 +25,39 @@
 </head>
 
 <body>
+    <main class="main">
+        <header class="main__header">
+            <h1>Lista Zadań</h1>
+        </header>
 
-    <header class="body__header">
-        <h1 class="header">Lista Zadań</h1>
-    </header>
+        <section class="form__section">
 
+            <header class="sections__header">
+                <h3 class="sections__title">Dodaj nowe zadanie</h3>
+            </header>
 
-    <section class="body__sections flex-items__form">
+            <form class="form">
+                <input type="text" class="form__input form__input-js" placeholder="Co jest do zrobienia?">
 
-        <h3 class="section__header header">Dodaj nowe zadanie</h3>
+                <button class="form__button-send">Dodaj zadanie</button>
+            </form>
 
-        <form class="form">
+        </section>
 
-            <input type="text" class="form__input form__input-js form__input-flex" placeholder="Co jest do zrobienia?">
+        <section class="list__section">
 
-            <button class="form__button-send form__button-flex">Dodaj zadanie</button>
+            <header class="sections__header list__header">
+                <h3 class="sections__title">Lista Zadań</h3>
 
-        </form>
-
-    </section>
-
-
-    <section class="body__sections flex-items__list">
-
-        <nav class="section__nav section__nav-flex">
-
-            <h3 class="nav__header header">Lista Zadań</h3>
-
-            <div class="nav__buttons-js nav__buttons-flex">
-                
-            </div>
-
-        </nav>
+                <div class="list__headerButtons-js list__headerButtons--flex">
+                </div>
+            </header>
 
             <ul class="list-js list-flex">
-
             </ul>
 
-    </section>
-
+        </section>
+    </main>
 </body>
 
 </html>

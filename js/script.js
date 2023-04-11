@@ -101,7 +101,7 @@
 
     const renderButtons = () => {
 
-        const navButtons = document.querySelector(".nav__buttons-js");
+        const navButtons = document.querySelector(".list__headerButtons-js");
 
         if (!tasks.length) {
             navButtons.innerHTML = "";
@@ -109,10 +109,10 @@
         }
         navButtons.innerHTML = `
             
-                <button class="nav__buttons list__buttonAllDone-js list__buttonAllDone-flex" ${tasks.every(({ done }) => done) ? "disabled " : ""}>
+                <button class="list__buttons list__buttonAllDone-js list__buttonAllDone-flex" ${tasks.every(({ done }) => done) ? "disabled " : ""}>
                     Ukończ wszystkie
                 </button>                    
-                <button class="nav__buttons list__buttonHideAllDone-js list__buttonHideAllDone-flex">
+                <button class="list__buttons list__buttonHideAllDone-js list__buttonHideAllDone-flex">
                     ${hideDoneTasks ? "Pokaz" : "Ukryj"} ukończone
                 </button>
            
