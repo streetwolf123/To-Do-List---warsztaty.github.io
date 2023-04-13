@@ -1,144 +1,57 @@
-.list__section {
-    background-color: white;
-    display: grid;
-    grid-template-rows: 50px 1fr;
-    grid-template-columns: 750px;
-}
-
-@media(max-width: 767px) {
-    .list__section {
-        grid-template-rows: 150px 1fr;
-        grid-template-columns: 300px;
-    }
-}
-
-.list__header {
-    display: grid;
-    grid-template-columns: 500px 250px;
-}
-
-@media(max-width: 767px) {
-    .list__header {
-        grid-template-rows: 50px 70px;
-        grid-template-columns: 300px;
-    }
-}
-
-.list__buttons {
-    border: 0px;
-    transition: 300ms;
-    color: rgb(13, 96, 129);
-    background-color: white;
-    font-family: 'lato', sans-serif;
-    cursor: pointer;
-}
-
-.list__buttons:hover {
-    color: rgb(15, 162, 198);
-}
-
-.list__buttons:disabled {
-    color: grey;
-}
-
-.list__headerButtons--flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-@media(max-width: 767px) {
-    .list__buttonAllDone-flex {
-        flex-basis: 100%;
-        margin-top: 10px;
-    }
-}
-
-@media(max-width: 767px) {
-    .list__buttonHideAllDone-flex {
-        flex-basis: 100%;
-        margin: 10px;
-    }
-}
-
-
-@media(max-width: 767px) {
-    .list__headerButtons--flex {
-        border-bottom: 1px solid rgba(78, 76, 76, 0.305);
-    }
-}
-
 .list {
-   display: grid;
-   grid-template-columns: 730px;
-   padding: 10px;
-   grid-auto-rows: minmax(50px, auto);
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
-
-@media(max-width: 767px) {
-    .list {
-        grid-template-columns: 280px;
-        margin: 0%;
-    }
-}
-
 
 .list__task {
-    border-bottom: 2px solid rgba(78, 76, 76, 0.213);
     display: grid;
-    grid-template-columns: 30px 650px 30px;
-    grid-auto-rows: minmax(50px, auto);
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    padding: 10px;
     align-items: center;
-    grid-gap: 10px; 
+    border-bottom: 1px solid #ddd;
 }
 
-@media(max-width: 767px) {
-    .list__task {
-        grid-template-columns: auto 200px auto;
-    }
-}
-
-
-.li__buttons {
-    width: 30px;   
-    height: 30px;
-    cursor: pointer;
-}
-
-.li__buttonDone {
-    border: 0px;
-    background-color: green;
-    transition: 300ms;
-}
-
-.li__buttonDone:hover {
-    background-color: rgb(7, 149, 7);
-}
-
-.li__buttonDone:active {
-    background-color: rgb(4, 66, 4);
-}
-
-.li__buttonRemove {
-    border: 0px;
-    background-color: red;
-    transition: 300ms;
-}
-
-.li__buttonRemove:hover {
-    background-color: rgb(249, 98, 98);
-}
-
-.li__buttonRemove:active {
-    background-color: rgb(159, 4, 4);
-}
-
-.li__paragraph-done {
+.task__content--done {
     text-decoration: line-through;
+}
+
+.task__buttons {
+    width: 30px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
 }
 
 .list__tasks--hiden {
     display: none;
 }
 
+.task__button--toggleDone {
+    border: 0px;
+    background-color: green;
+    transition: 300ms;
+}
+
+.task__button--toggleDone:hover {
+    background-color: rgb(7, 149, 7);
+}
+
+.task__button--toggleDone:active {
+    background-color: rgb(4, 66, 4);
+}
+
+.task__buttonRemove {
+    border: 0px;
+    background-color: red;
+    transition: 300ms;
+}
+
+.task__buttonRemove:hover {
+    background-color: rgb(249, 98, 98);
+}
+
+.task__buttonRemove:active {
+    background-color: rgb(159, 4, 4);
+}

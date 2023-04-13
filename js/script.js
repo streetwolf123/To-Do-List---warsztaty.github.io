@@ -63,9 +63,9 @@
             });
         });
 
-        const doneButtons = document.querySelectorAll(".js-done");
+        const toggleDoneButtons = document.querySelectorAll(".js-done");
 
-        doneButtons.forEach((donebutton, index) => {
+        toggleDoneButtons.forEach((donebutton, index) => {
             donebutton.addEventListener("click", () => {
                 toggleTaskDone(index);
             });
@@ -77,14 +77,14 @@
     const renderTasks = () => {
         const taskToHTLM = (task) => `
             <li class="list__task ${task.done && hideDoneTasks ? "list__tasks--hiden" : ""} ">                
-                <button class="js-done li__buttonDone li__buttons">
+                <button class="js-done task__button--toggleDone task__buttons">
                     <i class="${task.done ? "fa-solid fa-check button__i" : ""}"></i>
                 </button>
                        
-                    <span class="js-task paragraph-js ${task.done ? "li__paragraph-done" : ""}"> ${task.content}</span>
+                    <span class="task__content ${task.done ? "task__content--done" : ""}"> ${task.content}</span>
                    
-                <button class="js-task js-remove li__buttonRemove li__buttons">
-                🗑️
+                <button class="js-remove task__buttonRemove task__buttons">
+                    🗑️
                 </button>               
             </li>
             `;
@@ -100,23 +100,23 @@
             return;
         }
         navButtons.innerHTML = `           
-                <button class="list__buttons js-list__buttonAllDone list__buttonAllDone-flex" ${tasks.every(({ done }) => done) ? "disabled " : ""}>
+                <button class="buttons js-header__buttonToggleAllDone header__buttonToggleAllDone--flex" ${tasks.every(({ done }) => done) ? "disabled " : ""}>
                     Ukończ wszystkie
                 </button>                    
-                <button class="list__buttons js-list__buttonHideAllDone list__buttonHideAllDone-flex">
+                <button class="buttons js-header__buttonHideAllDone header__buttonHideAllDone--flex">
                     ${hideDoneTasks ? "Pokaz" : "Ukryj"} ukończone
                 </button>           
             `;
     }
 
     const bindEventsNavButtons = () => {
-        const toggleAllDoneObject = document.querySelector(".js-list__buttonAllDone");
+        const toggleAllDoneObject = document.querySelector(".js-header__buttonToggleAllDone");
 
         if (toggleAllDoneObject) {
             toggleAllDoneObject.addEventListener("click", markAllTaskDone);
         };
 
-        const hideAllDoneObject = document.querySelector(".js-list__buttonHideAllDone");
+        const hideAllDoneObject = document.querySelector(".js-header__buttonHideAllDone");
 
         if (hideAllDoneObject) {
             hideAllDoneObject.addEventListener("click", toggleHideDoneTask);

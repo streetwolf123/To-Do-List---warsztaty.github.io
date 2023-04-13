@@ -15,8 +15,9 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1950/1950715.png">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="css/conteiner.css">
+    <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="css/buttons.css">
-    <link rel="stylesheet" href="css/headers.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/list.css">
     <link rel="stylesheet" href="css/style.css">
@@ -25,36 +26,39 @@
 </head>
 
 <body>
-    <main class="main">
-        <header class="main__header">
+    <main class="conteiner">
+
+        <header>
             <h1>Lista Zadań</h1>
         </header>
 
-        <section class="form__section">
+        <section class="section">
 
-            <header class="sections__header">
-                <h3 class="sections__title">Dodaj nowe zadanie</h3>
+            <header class="section__header">
+                <h4>Dodaj nowe zadanie</h4>
             </header>
+            <div class="section__body">
+                <form class="form">
+                    <input type="text" class="form__input js-form__input" placeholder="Co jest do zrobienia?">
 
-            <form class="form">
-                <input type="text" class="form__input js-form__input" placeholder="Co jest do zrobienia?">
-
-                <button class="form__button-send">Dodaj zadanie</button>
-            </form>
+                    <button class="form__button--send">Dodaj zadanie</button>
+                </form>
+            </div>
 
         </section>
 
-        <section class="list__section">
+        <section class="section">
 
-            <header class="sections__header list__header">
-                <h3 class="sections__title">Lista Zadań</h3>
+            <header class="section__header section__header--buttons">
+                <h4>Lista Zadań</h4>
 
-                <div class="js-list__headerButtons list__headerButtons--flex">
+                <div class="js-list__headerButtons header__buttons--flex">
                 </div>
             </header>
-
-            <ul class="js-list list">
-            </ul>
+            <div class="section__body">
+                <ul class="js-list list">
+                </ul>
+            </div>
 
         </section>
     </main>

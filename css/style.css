@@ -9,32 +9,6 @@ html {
 }
 
 body {
-    background-color:rgba(78, 76, 76, 0.213);    
-}
-
-.main {
-    margin-left: 10%;
-    margin-right: 10%;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 750px;
-    grid-template-rows: 70px 120px 1fr;
-    grid-gap: 10px;
-    
-}
-
-@media(max-width: 767px) {
-    .main {
-        grid-template-columns: 300px;
-        grid-template-rows: 70px 140px 1fr;
-    }
-}
-
-
-
-.main__header {
     font-family: 'lato', sans-serif;
-    padding: 20px 20px 20px 0px;
-    margin: 0%;
-    padding: 10px 10px 0px 0px;
+    background-color: rgba(78, 76, 76, 0.213);
 }
