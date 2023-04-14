@@ -18,7 +18,7 @@ the application was made using imiutability, functions refreshing the view were 
 
 ## Picture of website
 
-![](https://github.com/streetwolf123/To-Do-List---warsztaty.github.io/blob/master/img/Zrzut%20ekranu%202023-03-30%20o%2014.04.14.png?raw=true)
+![](https://github.com/streetwolf123/To-Do-List---warsztaty.github.io/blob/master/img/Zrzut%20ekranu%202023-04-13%20o%2016.26.37.png?raw=true)
 
 
 
