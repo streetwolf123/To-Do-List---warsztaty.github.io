@@ -78,7 +78,7 @@
         const taskToHTLM = (task) => `
             <li class="list__task ${task.done && hideDoneTasks ? "list__tasks--hiden" : ""} ">                
                 <button class="js-done task__button--toggleDone task__buttons">
-                    <i class="${task.done ? "fa-solid fa-check button__i" : ""}"></i>
+                    <i class="${task.done ? "" : "button__toggleDone--none"}">✔</i>
                 </button>
                        
                     <span class="task__content ${task.done ? "task__content--done" : ""}"> ${task.content}</span>
@@ -100,10 +100,10 @@
             return;
         }
         navButtons.innerHTML = `           
-                <button class="buttons js-header__buttonToggleAllDone header__buttonToggleAllDone--flex" ${tasks.every(({ done }) => done) ? "disabled " : ""}>
+                <button class="buttons js-header__buttonToggleAllDone" ${tasks.every(({ done }) => done) ? "disabled " : ""}>
                     Ukończ wszystkie
                 </button>                    
-                <button class="buttons js-header__buttonHideAllDone header__buttonHideAllDone--flex">
+                <button class="buttons js-header__buttonHideAllDone">
                     ${hideDoneTasks ? "Pokaz" : "Ukryj"} ukończone
                 </button>           
             `;

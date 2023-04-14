@@ -55,3 +55,7 @@
 .task__buttonRemove:active {
     background-color: rgb(159, 4, 4);
 }
+
+.button__toggleDone--none {
+    display: none;
+}

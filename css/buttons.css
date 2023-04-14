@@ -1,36 +1,9 @@
-.section__header--buttons {
-    display: grid;
-    grid-template-columns: 1fr 300px;
-}
-
-@media (max-width: 767px) {
-    .section__header--buttons {
-        grid-template-columns: 1fr;
-    }
-}
-
 .header__buttons--flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
-
-@media(max-width: 767px) {
-    .header__buttonToggleAllDone--flex {
-        flex-basis: 100%;
-        padding: 10px;
-        margin-top: 10px;
-    }
-}
-
-@media(max-width: 767px) {
-    .header__buttonHideAllDone--flex {
-        flex-basis: 100%;
-        padding: 10px;
-    }
-}
-
 
 .buttons {
     border: 0px;
@@ -41,10 +14,18 @@
     cursor: pointer;
 }
 
-.header__buttons:hover {
+@media(max-width: 767px) {
+    .buttons {
+        flex-basis: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}
+
+.buttons:hover {
     color: rgb(15, 162, 198);
 }
 
-.header__buttons:disabled {
+.buttons:disabled {
     color: grey;
 }
